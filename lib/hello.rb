@@ -16,7 +16,7 @@ end
 
 # call your method here!
 hello_t(["Tim", "Tom", "Jim"]) do |name|
-  if name.start_with?("T")
+  if name.ends_with?("M")
     puts "Hi, #{name}"
   end
 end
